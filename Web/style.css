@@ -1,0 +1,59 @@
+body{
+  text-align: center;
+  background-color: #2E4053;
+}
+
+.lightStatus{
+  margin-top: 10%;
+  color: white;
+}
+.lightButton{
+  font-size: 1.5em;
+  margin: 2%;
+  padding: 10px;
+}
+
+.colorStatus{
+  color: white;
+  text-align: center;
+}
+
+.t1{
+  margin: 0;
+  padding: 0;
+}
+
+.btGroup{
+  margin: 3%;
+}
+
+.fx{
+  margin: 4%;
+  padding: 0px;
+  font-size: 1.5em;
+  height: 100%;
+  width: 60%;
+}
+
+.btPink{
+  background-color: #ff16d8;
+  border-color:#ff51d9;
+  color: #fff;
+}
+
+.btWhite{
+  background-color: whitesmoke;
+  border-color: whitesmoke;
+  color: black;
+}
+
+
+.btPink:hover {
+  color: #fff;
+  background-color: #ff00b3;
+  border-color: #ff00d4;
+}
+
+.btWhite:hover {
+  border-color: #acacac;
+}

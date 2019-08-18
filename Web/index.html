@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>IoT OpenHouse</title>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-database.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div class=container>
+        <h1 class="lightStatus">Loading...</h1>
+        <button class="lightButton" >ON / OFF</button>
+        <div class="row">
+            <div class="col-md-12"><h1 class="colorStatus">Loading...</h1></div>
+          </div>
+        <div class="row btGroup">
+            <div class="col-md-4 t1"><button type="button" class="btn btn-success fx">Green</button></div>
+            <div class="col-md-4 t1"><button type="button" class="btn btn-danger fx">Red</button></div>
+            <div class="col-md-4 t1"><button type="button" class="btn btn-warning fx">Yellow</button></div>
+        </div>
+        <div class="row btGroup">
+          <div class="col-md-4 t1"><button type="button" class="btn btn-info fx">Sky Blue</button></div>
+          <div class="col-md-4 t1"><button type="button" class="btn btPink fx">Pink</button></div>
+          <div class="col-md-4 t1"><button type="button" class="btn btWhite fx">White</button></div>
+        </div>
+    </div>
+  </body>
+</html>
