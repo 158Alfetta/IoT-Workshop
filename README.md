@@ -1,2 +1,2 @@
 # IoT-Workshop
-an IoT Workshop at Faculty of Information Technology, KMITL
+an IoT Workshop of OPENHOUSE ITKMITL 2019 at Faculty of Information Technology, KMITL
