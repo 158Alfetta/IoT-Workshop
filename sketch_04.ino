@@ -1,7 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <FirebaseArduino.h> 
 
-#define WIFI_SSID "redmi4x" 
+#define WIFI_SSID "YOUR_SSID"
+#define WIFI_SSID "YOUR_PASSWORD" 
 
 #define FIREBASE_HOST "iot-openhouse-2019.firebaseio.com"
 #define FIREBASE_AUTH "z46ng4bNnMlfLx4oFXRjtaOGcHSqeb6wGShYTpnT"
